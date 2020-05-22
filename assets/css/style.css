@@ -1,0 +1,17 @@
+
+/******************Comments here */
+
+.sfd-logo{
+    max-width: 200px;
+    max-height: 200px;
+  /**  position: absolute;**/
+
+}
+
+.header-background{
+    max-height: 200px;
+}
+
+.container-control{
+    margin: 0;
+}
