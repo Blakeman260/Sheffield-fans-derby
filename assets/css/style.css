@@ -1,17 +1,88 @@
 
-/******************Comments here */
+/******************header */
 
 .sfd-logo{
     max-width: 200px;
     max-height: 200px;
+    margin-bottom: 3px;
   /**  position: absolute;**/
 
 }
 
 .header-background{
     max-height: 200px;
+    overflow: hidden;    
+}
+
+.header-title{
+    position: center center;
 }
 
 .container-control{
     margin: 0;
+}
+/*
+.head-links{
+    border: 2px;
+    border-color: black;
+    border-style: groove;
+}
+*/
+
+.home-btn{
+    background-color: rgb(60, 199, 60);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.wed-btn{
+    background-color: blue;
+    padding-top: 25px;
+    padding-bottom: 25px;    
+    text-align: center;
+    color: white;
+}
+
+.utd-btn{
+    background-color: red;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.ticket-btn{
+    background-color:rgb(255, 165, 0);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.prev-m-btn{
+    background-color: brown;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.charity-btn{
+    background-color: slategray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.btn-border{
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+}
+
+section {
+    background-color: #228B22;
 }
