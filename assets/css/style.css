@@ -30,7 +30,7 @@
 */
 
 .home-btn{
-    background-color: rgb(60, 199, 60);
+    background-color: rgb(103,121,17);
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -83,6 +83,15 @@
     border-style: groove;
 }
 
+/************************************************************Section*/
+
 section {
-    background-color: #228B22;
+    background-color: rgb(103,121,17);
+}
+
+/*************************************************************Footer*/
+
+footer{
+    background-color: rgb(88, 88, 88);
+    color: white;
 }
