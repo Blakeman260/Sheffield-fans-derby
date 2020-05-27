@@ -5,6 +5,7 @@
     max-width: 200px;
     max-height: 200px;
     margin-bottom: 3px;
+    padding-top: 2px;
   /**  position: absolute;**/
 
 }
@@ -15,7 +16,9 @@
 }
 
 .header-title{
-    position: center center;
+    text-align: center;
+    padding-top: 60px;
+    color: #fafafa;
 }
 
 .container-control{
@@ -83,10 +86,39 @@
     border-style: groove;
 }
 
-/************************************************************Section*/
+/************************************************************Home Section*/
 
 section {
     background-color: rgb(103,121,17);
+    padding: 10px;
+}
+
+.represent-home-section{
+    background-color: white;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+}
+
+.ticket-home-section{
+    background-color: rgb(255, 165, 0);
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-left-style: groove;
+}
+
+.crowd-home-section{
+    padding-bottom: 20px;
+   /** border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    **/
+}
+
+.team-logos{
+    position: center;
 }
 
 /*************************************************************Footer*/
