@@ -1,4 +1,10 @@
 
+a:visited {
+  color: #fafafa;
+}
+a:hover, a:active, a:focus {
+  color: black;
+}
 /******************header */
 
 .sfd-logo{
@@ -18,7 +24,12 @@
 .header-title{
     text-align: center;
     padding-top: 60px;
-    color: #fafafa;
+    color: #ffffff;
+}
+
+.header-sub-title{
+    text-align: center;
+    color: #dad5d5;
 }
 
 .container-control{
@@ -73,7 +84,7 @@
 }
 
 .charity-btn{
-    background-color: slategray;
+    background-color: rgb(140, 0, 255);
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -88,7 +99,7 @@
 
 /************************************************************Home Section*/
 
-section {
+.home-section {
     background-color: rgb(103,121,17);
     padding: 10px;
 }
@@ -101,6 +112,12 @@ section {
     border-style: groove;
 }
 
+.represent-home-section a:visited {
+  color: #fafafa;
+}
+.represent-home-section a:hover, a:active, a:focus {
+  color: #fafafa;
+}
 .ticket-home-section{
     background-color: rgb(255, 165, 0);
     text-align: center;
@@ -111,19 +128,96 @@ section {
 
 .crowd-home-section{
     padding-bottom: 20px;
-   /** border: 2px;
-    border-color: rgb(49, 49, 49);
-    border-style: groove;
-    **/
+    max-width: 250px;
+    max-height: auto;
 }
 
 .team-logos{
     position: center;
 }
 
+.charity-information{
+    background-color: white;
+    margin-top: 10px;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    
+}
+
+.charity-information a:visited {
+  color: #000000;
+}
+.charity-information a:hover, a:active, a:focus {
+  color: #000000;
+}
+.home-charity-title{
+    margin: 20px 20px;
+}
+
+.shc-background{
+   background-color: rgb(140, 0, 255); 
+}
+
+.shc-logo-home{
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(140, 0, 255);
+}
+
+/**********************************************************Wednesday fans section*/
+.wednesday-section {
+    background-color: blue;
+    padding: 10px;
+}
+
+.wed-info-section{
+    background-color: white;
+    text-align: center;
+}
+
+.wed-signup-form{
+    background-color: white;
+}
+
+
+.united-section{
+    background-color: red;
+    padding: 10px;
+}
+
+
+.utd-info-section{
+    background-color: white;
+    text-align: center;
+}
+
+.utd-signup-form{
+    background-color: white;
+}
+
+
 /*************************************************************Footer*/
 
 footer{
     background-color: rgb(88, 88, 88);
     color: white;
+}
+
+@media (max-width: 768px){
+   img{
+       max-width: 200px;
+   }
+}
+
+@media (max-width: 576px){
+    .head-links{
+        padding-top: none;
+        padding-bottom: none;
+    }
 }

@@ -4,73 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Sheffield Fans Derby</title>
 </head>
 <body>
     <header>
-        <div class=".container-fluid container-control header-background" style="background-image: url('../assets/images/full-border.jpg');">
+        <div class="container-fluid container-control header-background" style="background-image: url('../assets/images/full-border.jpg');">
            <div class="row">
-                <div class="col-lg-3 col-sm-12 sfd-logo"><img class="sfd-logo" src="../assets/images/SFD logo 2017.png" alt="Sheffield Fans Derby Logo"></div>   
-                <div class=" d-md-none d-lg-block col-lg-9">
-                    <h1 class="header-title">Sheffield Fans Derby</h1> 
+                <div class="col-3 col-sm-12 sfd-logo"><img class="sfd-logo" src="../assets/images/SFD logo 2017.png" alt="Sheffield Fans Derby Logo"></div>   
+                <div class="col-6 col-lg-9">
+                    <h1 class=" header-title">Sheffield Fans Derby</h1> 
+                    <h4 class="header-sub-title">The Sheffield Fans Derby is a charity match between Sheffield Wednesday fans and Sheffield United fans, <br>aimed at raising money for charity. </h4>
                 </div>     
             </div>
         </div>
-        <div class=".container-fluid container-control ">
+        <div class="container-fluid container-control ">
             <div class="row  head-links">
-                <div class="col-2 home-btn btn-border"><a href="../index.html"> Home</a></div>
-                <div class="col-2 wed-btn btn-border"> <a href="../wednesday-fans.html"> Wednesday Fans</a><i class="fab fa-earlybirds"></i></div>
-                <div class="col-2 utd-btn btn-border"> <a href="../united-fans.html">United Fans</a></div>
-                <div class="col-2 ticket-btn btn-border"> <a href="../tickets.html"> Tickets</a></div>
-                <div class="col-2 prev-m-btn btn-border"> <a href="../match-history.html"> Match History</a></div>
-                <div class="col-2 charity-btn btn-border"> <a href="../charity.html"> Charitys</a></div>
+                <div class="col-6 col-sm-2 home-btn btn-border"><a href="../index.html"> Home</a></div>
+                <div class="col-6 col-sm-2 wed-btn btn-border"> <a href="../wednesday-fans.html"> Wednesday Fans</a><i class="fab fa-earlybirds"></i></div>
+                <div class="col-6 col-sm-2 utd-btn btn-border"> <a href="../united-fans.html">United Fans</a></div>
+                <div class="col-6 col-sm-2 ticket-btn btn-border"> <a href="../tickets.html"> Tickets</a></div>
+                <div class="col-6 col-sm-2 prev-m-btn btn-border"> <a href="../match-history.html"> Match History</a></div>
+                <div class="col-6 col-sm-2 charity-btn btn-border"> <a href="../charity.html"> Charitys</a></div>
             </div>
         </div>  
     </header>
-    <section>
+    <section class="home-section">
         <div class="container-fluid">
             <div class="row represent-home-section">
-                <div class="col-9">
-                    <h2>SFD 16 <br>
-                    Represent your team
+                <div class="col-12 col-xl-9">
+                    <h2>SFD, 16 May 2021<br></h2>
+                    <br>
+                    <h2>Represent your team
                     & raise money for charity!</h2>
                     <div class="row team-logos">
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xl-6">
                             <img class="home-section-swfc" src="../assets/images/SWFC.jpg" alt="SWFC Logo">
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-12 col-xl-6">
                             <img class="home-section-sufc" src="../assets/images/SUFC.jpg" alt="SUFC Logo">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <button type="button" class="btn btn-outline-primary btn-lg btn-block">Wednesday fans, <br> sign up here!</button> 
+                    <div class="row ">
+                        <div class="col-12 col-sm-6">
+                            <a href="../wednesday-fans.html"><button type="button" class="btn btn-outline-primary btn-lg btn-block">Wednesday fans, <br> sign up here!</button></a>
                         </div>
-                        <div class="col-6">
-                            <button type="button" class="btn btn-outline-danger btn-lg btn-block">United fans, <br> sign up here!</button>
+                        <div class="col-12 col-sm-6">
+                            <a href="../united-fans.html"><button type="button" class="btn btn-outline-danger btn-lg btn-block">United fans, <br> sign up here!</button></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-3 order-3 ticket-home-section">
+                <div class="col-l-12 col-xl-3 ticket-home-section">
                     <h3>Don't fancy playing? <br>
                     That's fine, you can <br>
                     still support by buying <br>
                     a ticket and cheering <br>
                     your team on!</h3>
                     <img class="crowd-home-section" src="../assets/images/crowd.jpg" alt="Football Crowd">
-                    <a href="#"><h3>For ticket information, <br>Click here!</h3></a> 
+                    <a href="../tickets.html"><h3>For ticket information, <br>Click here!</h3></a> 
 
 
                 </div>
             </div>
             <div class="row charity-information">
-                <div class="col-12">
-
+                <div class="col-xl-4 col-l-12  shc-background">
+                    <img class="shc-logo-home" src="../assets/images/shc-new-logo.png" alt="SHC logo" > 
+                </div>
+                <div class="col-12 col-sm-8">
+                    <div class="row  home-charity-title">
+                        <h3>This year, we will be raising money for Sheffield Hospitals Charity!</h3>
+                    </div>
+                    <div class="row">
+                        SHC, are devoted to improving the treatment of local patients and supporting NHS staff to deliver the best quality of care in all of the Sheffield Teaching Hospitals, this includes: <br>
+                        <ul>
+                            <li>Royal Hallamshire Hospital</li>
+                            <li>Northern General Hospital</li>
+                            <li>Charles Clifford Hospital</li>
+                            <li>Weston Park Cancer Hospital</li>
+                            <li>Jessop Wing Maternity Hospital</li>
+                        </ul>
+                        <br>
+                       
+                    </div>
+                    <div class="row ">
+                        <a href="../charity.html">Click here, for more information on how SHC are doing an amazing job.</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,22 +98,22 @@
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2">
+                <div class="col-m-2">
                     <ul> Social Media Links
                         <li>Facebook</li>
                         <li>Twitter</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-m-2">
                     Sheffield Hospitals Charity link
                 </div>
-                <div class="col-2">
+                <div class="col-m-2">
                     Link to Flickr Album for last match
                 </div>
-                <div class="col-2">
+                <div class="col-m-2">
                     Want to help out? <br> Volunteers are always welcome!
                 </div>
-                <div class="col-2">
+                <div class="col-m-2">
                     Contact us
                 </div>
             </div>
