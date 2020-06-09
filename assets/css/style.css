@@ -1,3 +1,7 @@
+a:link {
+  color: white;
+  
+}
 
 a:visited {
   color: #fafafa;
@@ -23,7 +27,7 @@ a:hover, a:active, a:focus {
 
 .header-title{
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     color: #ffffff;
 }
 
@@ -35,13 +39,6 @@ a:hover, a:active, a:focus {
 .container-control{
     margin: 0;
 }
-/*
-.head-links{
-    border: 2px;
-    border-color: black;
-    border-style: groove;
-}
-*/
 
 .home-btn{
     background-color: rgb(103,121,17);
@@ -104,6 +101,15 @@ a:hover, a:active, a:focus {
     padding: 10px;
 }
 
+.md-context{
+    background-color: white;
+    text-align: center;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+    margin-bottom: 10px;
+}
+
 .represent-home-section{
     background-color: white;
     text-align: center;
@@ -118,6 +124,12 @@ a:hover, a:active, a:focus {
 .represent-home-section a:hover, a:active, a:focus {
   color: #fafafa;
 }
+
+.on-home-sign-up{
+    padding-bottom: 5px;
+}
+
+
 .ticket-home-section{
     background-color: rgb(255, 165, 0);
     text-align: center;
@@ -132,6 +144,21 @@ a:hover, a:active, a:focus {
     max-height: auto;
 }
 
+.ticket-home-selection-full{
+    background-color: rgb(255, 165, 0);
+    text-align: center;
+    margin-top: 10px;
+    border: 2px;
+    border-color: rgb(49, 49, 49);
+    border-style: groove;
+}
+
+.crowd-home-section-full{
+    padding-bottom: 20px;
+    max-width: 400px;
+    max-height: auto;
+}
+
 .team-logos{
     position: center;
 }
@@ -142,7 +169,7 @@ a:hover, a:active, a:focus {
     border: 2px;
     border-color: rgb(49, 49, 49);
     border-style: groove;
-    
+    text-align: center;
 }
 
 .charity-information a:visited {
@@ -185,6 +212,14 @@ a:hover, a:active, a:focus {
     background-color: white;
 }
 
+.wed-fans-trophy{
+    max-width: 500px;
+    max-height: relative;
+}
+
+
+
+/******************************************************************United fans section*/
 
 .united-section{
     background-color: red;
@@ -195,10 +230,16 @@ a:hover, a:active, a:focus {
 .utd-info-section{
     background-color: white;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .utd-signup-form{
     background-color: white;
+}
+
+.utd-fans-trophy{
+    padding-bottom: 20px;
+    position: center;
 }
 
 
@@ -209,8 +250,8 @@ footer{
     color: white;
 }
 
-@media (max-width: 768px){
-   img{
+@media (max-width: 576px){
+   .crowd-home-section-full, img{
        max-width: 200px;
    }
 }
@@ -219,5 +260,11 @@ footer{
     .head-links{
         padding-top: none;
         padding-bottom: none;
+    }
+}
+
+@media (max-width: 1199px){
+    .ticket-home-section{
+        display: none;
     }
 }
