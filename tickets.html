@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="container-fluid container-control ">
-            <div class="row  head-links">
+            <div class="row  head-links link-color-white">
                 <div class="col-6 col-sm-2 home-btn btn-border"><a href="../index.html"> Home</a></div>
                 <div class="col-6 col-sm-2 wed-btn btn-border"> <a href="../wednesday-fans.html"> Wednesday Fans</a><i class="fab fa-earlybirds"></i></div>
                 <div class="col-6 col-sm-2 utd-btn btn-border"> <a href="../united-fans.html">United Fans</a></div>
@@ -31,8 +31,61 @@
         </div>  
     </header>
 
-    <section>
-        Tickets section
+    <section class="ticket-page-section">
+        <div class="container-fluid">
+            <div class="row ticket-title">
+                <div class="col-12">
+                  <h1> Buy your Tickets here!</h1><br>
+                  Tickets can be purchased on the day at the door, but only a limited amount are available!<br>
+                  <br>
+                  <b>Tickets pricing:</b> <br>
+                  Adults £4 <br>
+                  Under 12's £0, but do require to be accompanied by an adult.
+                </div>
+            </div>
+            <div class="row ticket-form text-center">
+                <div class="col-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="fullnameinput1">Full Name</label>
+                            <input type="fullname" class="form-control" id="fullnameinput1" placeholder="Full Name - John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="adultticketquantity">Adult tickets quantity</label>
+                            <select class="form-control" id="adultticketquantity">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="childticketquantity">Under 12's tickets quantity</label>
+                            <select class="form-control" id="childticketquantity">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row ticket-form text-center">
+                <div class="col-12">
+                    <h4>Tickets will be sent to you via your Email address, so look out for our Email!</h4>
+                </div>
+            </div>
+        </div>
     </section>
 
         <footer>

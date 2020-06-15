@@ -16,16 +16,16 @@ a:hover, a:active, a:focus{
   text-decoration: none;
 }
 
-.link-color-black a:link {
-  color: black;
+.link-color-purple a:link {
+  color: rgb(140, 0, 255);
   }
 
- .link-color-black a:visited {
-    color: black;
+ .link-color-purple a:visited {
+    color: rgb(140, 0, 255);
     }
 
-.link-color-black a:hover, a:active, a:focus {
-  color: black;
+.link-color-purple a:hover, a:active, a:focus {
+  color: rgb(140, 0, 255);
 }
 /******************header */
 
@@ -184,12 +184,14 @@ a:hover, a:active, a:focus{
 }
 
 .crowd-home-section{
+    padding-top : 60px;
     padding-bottom: 20px;
     max-width: 250px;
     max-height: auto;
 }
 
 .ticket-home-selection-full{
+    padding-top: 20px;
     background-color: rgb(255, 165, 0);
     text-align: center;
     margin-top: 10px;
@@ -242,7 +244,7 @@ a:hover, a:active, a:focus{
     background-color: rgb(140, 0, 255);
 }
 
-/**********************************************************Wednesday fans section*/
+/**********************************************************Wednesday fans Page*/
 .wednesday-section {
     background-color: blue;
     padding: 10px;
@@ -262,9 +264,11 @@ a:hover, a:active, a:focus{
     max-height: relative;
 }
 
+.fans-btn{
+    text-align: right;
+}
 
-
-/******************************************************************United fans section*/
+/******************************************************************United fans page*/
 
 .united-section{
     background-color: red;
@@ -287,6 +291,23 @@ a:hover, a:active, a:focus{
     position: center;
 }
 
+/******************************************************************Tickets page*/
+
+.ticket-page-section{
+    
+    background-color: rgb(255, 165, 0);
+    padding: 10px;
+}
+
+.ticket-title{
+    background-color: white;
+    text-align: center;
+}
+
+.ticket-form{
+    background-color: white;
+    text-align: center;
+}
 
 /*************************************************************Footer*/
 
@@ -306,6 +327,14 @@ footer{
         padding-top: none;
         padding-bottom: none;
     }
+    
+    .shc-logo-home{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: center;
+    }
+    
 }
 
 @media (max-width: 1199px){
