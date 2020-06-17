@@ -309,6 +309,31 @@ a:hover, a:active, a:focus{
     text-align: center;
 }
 
+/********************************************************************Match history page */
+
+.match-history-section{
+    background-color: brown;
+    padding: 10px;
+}
+
+.match-history-content{
+    background-color: white;
+    text-align: center;
+}
+
+
+/*****************************************************************Charity Page*/
+
+.charity-section{
+    background-color: rgb(140, 0, 255);
+    padding: 10px;
+}
+
+.charity-section-content{
+    background-color: white;
+    text-align: center;
+}
+
 /*************************************************************Footer*/
 
 footer{
@@ -323,9 +348,10 @@ footer{
 }
 
 @media (max-width: 576px){
+    
     .head-links{
-        padding-top: none;
-        padding-bottom: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     
     .shc-logo-home{
