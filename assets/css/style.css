@@ -341,6 +341,10 @@ footer{
     color: white;
 }
 
+.footer-links{
+    padding-bottom: 20px;
+}
+
 /******************************************************************************************Media adjustments*/
 
 @media (max-width: 576px){
