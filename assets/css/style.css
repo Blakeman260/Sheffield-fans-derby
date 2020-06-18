@@ -27,14 +27,14 @@ a:hover, a:active, a:focus{
 .link-color-purple a:hover, a:active, a:focus {
   color: rgb(140, 0, 255);
 }
-/******************header */
+/************************************************************header */
 
 .sfd-logo{
     max-width: 200px;
     max-height: 200px;
     margin-bottom: 3px;
     padding-top: 2px;
-  /**  position: absolute;**/
+  
 
 }
 
@@ -117,7 +117,7 @@ a:hover, a:active, a:focus{
     border-style: groove;
 }
 
-/************************************************************Home Section*/
+/**********************************************************************Home Section*/
 
 .home-section {
     background-color: rgb(103,121,17);
@@ -244,7 +244,7 @@ a:hover, a:active, a:focus{
     background-color: rgb(140, 0, 255);
 }
 
-/**********************************************************Wednesday fans Page*/
+/***********************************************************************Wednesday fans Page*/
 .wednesday-section {
     background-color: blue;
     padding: 10px;
@@ -268,7 +268,7 @@ a:hover, a:active, a:focus{
     text-align: right;
 }
 
-/******************************************************************United fans page*/
+/**************************************************************************United fans page*/
 
 .united-section{
     background-color: red;
@@ -291,7 +291,7 @@ a:hover, a:active, a:focus{
     position: center;
 }
 
-/******************************************************************Tickets page*/
+/*****************************************************************************Tickets page*/
 
 .ticket-page-section{
     
@@ -309,7 +309,7 @@ a:hover, a:active, a:focus{
     text-align: center;
 }
 
-/********************************************************************Match history page */
+/************************************************************************************Match history page */
 
 .match-history-section{
     background-color: brown;
@@ -322,7 +322,7 @@ a:hover, a:active, a:focus{
 }
 
 
-/*****************************************************************Charity Page*/
+/************************************************************************************Charity Page*/
 
 .charity-section{
     background-color: rgb(140, 0, 255);
@@ -334,12 +334,14 @@ a:hover, a:active, a:focus{
     text-align: center;
 }
 
-/*************************************************************Footer*/
+/*******************************************************************************************Footer*/
 
 footer{
     background-color: rgb(88, 88, 88);
     color: white;
 }
+
+/******************************************************************************************Media adjustments*/
 
 @media (max-width: 576px){
    .crowd-home-section-full, img, .home-section-sufc, img{
@@ -360,7 +362,16 @@ footer{
         margin-bottom: 20px;
         position: center;
     }
+
+    .sfd-logo{
+        max-width: 100px;
+        max-height: 100px;
+    }
     
+    .header-title{
+        padding-top: 0px;
+       padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 1199px){
