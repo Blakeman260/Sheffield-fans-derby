@@ -65,56 +65,38 @@ a:hover, a:active, a:focus{
 */
 .home-btn{
     background-color: rgb(103,121,17);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: white;
+
 }
 
 .wed-btn{
     background-color: blue;
-    padding-top: 25px;
-    padding-bottom: 25px;    
-    text-align: center;
-    color: white;
 }
 
 .utd-btn{
     background-color: red;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: white;
 }
 
 .ticket-btn{
     background-color:rgb(255, 165, 0);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: white;
 }
 
 .prev-m-btn{
     background-color: brown;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: white;
 }
 
 .charity-btn{
     background-color: rgb(140, 0, 255);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: white;
+    
 }
 
 .btn-border{
     border: 2px;
     border-color: rgb(49, 49, 49);
     border-style: groove;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
 }
 
 /**********************************************************************Home Section*/
@@ -321,6 +303,9 @@ a:hover, a:active, a:focus{
     text-align: center;
 }
 
+.sfd-matches{
+    padding-top: 10px;
+}
 
 /************************************************************************************Charity Page*/
 
