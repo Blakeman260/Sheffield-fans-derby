@@ -70,11 +70,6 @@ a:hover, a:active, a:focus{
     margin: 0;
 }
 
-/**************************can be sorted later
-.head-links{
-    position: fixed;
-}
-*/
 .home-btn{
     background-color: rgb(103,121,17);
 
@@ -146,14 +141,6 @@ a:hover, a:active, a:focus{
     color: black;
 }
 
-/******
-.represent-home-section a:visited {
-  color: green;
-}
-.represent-home-section a:hover, a:active, a:focus {
-  color: red;
-}
-****/
 .on-home-sign-up{
     padding-bottom: 5px;
 }
