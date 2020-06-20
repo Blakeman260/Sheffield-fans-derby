@@ -27,6 +27,18 @@ a:hover, a:active, a:focus{
 .link-color-purple a:hover, a:active, a:focus {
   color: rgb(140, 0, 255);
 }
+
+.link-color-black-charity a:link {
+  color: black;
+  }
+
+.link-color-black-charity a:visited {
+    color: black;
+    }
+
+.link-color-black-charity a:hover, a:active, a:focus {
+    color: black;
+}
 /************************************************************header */
 
 .sfd-logo{
