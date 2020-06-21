@@ -242,11 +242,6 @@ a:hover, a:active, a:focus{
     padding-bottom: 30px;
 }
 
-.wed-fans-trophy{
-    max-width: 500px;
-    max-height: relative;
-}
-
 .fans-btn{
     text-align: right;
 }
@@ -258,21 +253,16 @@ a:hover, a:active, a:focus{
     padding: 10px;
 }
 
-
 .utd-info-section{
     background-color: white;
     text-align: center;
-    padding-bottom: 20px;
+
 }
 
 .utd-signup-form{
     background-color: white;
     text-align: center;
-}
-
-.utd-fans-trophy{
-    padding-bottom: 20px;
-    position: center;
+    padding-bottom: 30px;
 }
 
 /*****************************************************************************Tickets page*/
@@ -363,6 +353,13 @@ footer{
     .header-title{
         padding-top: 0px;
        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 800px){
+    .sfd-logo{
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
